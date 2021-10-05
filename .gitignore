@@ -1,6 +1,7 @@
 # directories
 .idea
 dist
+build
 node_modules
 
 # files
