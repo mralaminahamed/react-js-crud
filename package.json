@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Simple js crud app with reactjs",
   "main": "index.js",
-  "babel":{
-    "presets" : [
+  "babel": {
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
@@ -25,7 +25,8 @@
   "homepage": "https://github.com/mralaminahamed/react-js-crud#readme",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
