@@ -1,0 +1,8 @@
+# directories
+.idea
+dist
+node_modules
+
+# files
+*-lock.json
+*.lock
