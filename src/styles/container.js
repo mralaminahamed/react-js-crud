@@ -82,3 +82,12 @@ export const FormElementContainer = styled.div`
   display: flex;
   flex-direction: row;
 `
+
+export const TableContainer = styled.table`
+  border-collapse: collapse;
+  display: table;
+  height: auto;
+  text-align: left;
+  width: 100%;
+  line-height: 28px;
+`

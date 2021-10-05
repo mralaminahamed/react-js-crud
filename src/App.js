@@ -44,15 +44,20 @@ export default class App extends Component {
             <AppContainer>
                 <GlobalCSS/>
                 <Application>
+                    {/*app title*/}
                     <ApplicationTitle>Book list</ApplicationTitle>
                     {showMessage ? (
                         <MessageContainer>
                             <Message type='error'>message</Message>
                         </MessageContainer>
                     ) : null}
+
+                    {/*form view and hide button*/}
                     <AddItemContainer onClick={() => this.handleShowForm()}>
                         <AddButton>+</AddButton>
                     </AddItemContainer>
+
+                    {/*data insert form*/}
                     {showForm ? (
                         <FormContainer>
                             <FormElementContainer>
@@ -75,7 +80,8 @@ export default class App extends Component {
                             </FormElementContainer>
                         </FormContainer>
                     ) : null}
-                    Hello word
+
+                    {/*data table*/}
                 </Application>
             </AppContainer>
         )
