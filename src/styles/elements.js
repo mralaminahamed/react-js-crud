@@ -96,3 +96,13 @@ export const ResetButtonTag = styled.input`
     background-color: red
   }
 `;
+
+export const TableData = styled.td`
+  border-bottom: .1rem solid #e8e5ef;
+  padding: .5rem 1rem;
+  
+  &:last-child{
+    text-align: center;
+    width: 175px;
+  }
+`

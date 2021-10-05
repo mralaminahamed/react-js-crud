@@ -91,3 +91,11 @@ export const TableContainer = styled.table`
   width: 100%;
   line-height: 28px;
 `
+
+export const TableHead = styled.thead`
+  font-weight: bold;
+  
+  user-select: none;
+  background-color: #e8e5ef;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .1) 100%);
+`

@@ -3,9 +3,9 @@ import {
     AddItemContainer,
     AppContainer,
     Application, FormContainer, FormElementContainer,
-    GlobalCSS, MessageContainer,
+    GlobalCSS, MessageContainer, TableContainer, TableHead,
 } from "./styles/container";
-import {ApplicationTitle, InputLabel} from "./styles/elements";
+import {ApplicationTitle, InputLabel, TableData} from "./styles/elements";
 import {AddButton} from "./components/AddButton";
 import {Message} from "./components/Message";
 import InputElement from "./components/InputElement";
@@ -82,6 +82,18 @@ export default class App extends Component {
                     ) : null}
 
                     {/*data table*/}
+                    <TableContainer>
+                        <TableHead>
+                            <tr>
+                                <TableData>#</TableData>
+                                <TableData>Name</TableData>
+                                <TableData>Writer</TableData>
+                                <TableData>ISBN</TableData>
+                                <TableData>Action</TableData>
+                            </tr>
+
+                        </TableHead>
+                    </TableContainer>
                 </Application>
             </AppContainer>
         )
