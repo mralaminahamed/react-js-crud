@@ -34,3 +34,65 @@ export const MessageContent = styled.div`
   display: flex;
   justify-content: flex-start;
 `;
+
+
+export const InputLabel = styled.label`
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  margin-right: 40px;
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+`;
+
+export const InputTag = styled.input`
+  font-family: inherit;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 5px 10px;
+`;
+
+export const SubmitButtonTag = styled.input`
+  padding: 5px 15px;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+
+  width: 140px;
+  border-radius: 5px;
+
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+
+  background-color: #34abe6;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .1) 100%);
+  
+  &:hover {
+    background-color: #0777cc;
+  }
+`;
+
+export const ResetButtonTag = styled.input`
+  padding: 5px 15px;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+
+  width: 140px;
+  border-radius: 5px;
+  
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+
+  background-color: #f9a09a94;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .1) 100%);
+  
+  &:hover {
+    background-color: red
+  }
+`;
