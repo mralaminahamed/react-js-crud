@@ -74,6 +74,8 @@ export const FormContainer = styled.div`
   flex-direction: column;
   padding: 10px 15px;
   margin-bottom: 20px;
+  
+  border-radius:5px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 2px 3px rgba(0, 0, 0, .24);
 `;
